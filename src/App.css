@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 5px;
+}
+
+.card {
+  background: linear-gradient(to bottom, black, teal);
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.card:hover {
+  transform: scale(1.25);
+  cursor: pointer;
+}
+
+.card-title {
+  color: white;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#score-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  h3 {
+    margin-bottom: 20px;
+  }
+}
